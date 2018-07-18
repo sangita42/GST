@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+
+font-family:Verdana;
+font-size:20px;
+margin:0;
+line-height:20px;
+
+}
+.navbar{
+text-align:center;
+width:100%;
+background:royalblue;
+opacity:0.5;
+}
+.navbar ul {
+margin:0;
+padding:0;
+list-style:none;
+position:relative;
+}
+.navbar ul li a{
+display:block;
+padding:25px;
+color:white;
+text-decoration:none;
+width:270px;
+}
+.navbar ul:after{
+  content: ""; clear:both;
+  display:block;
+  }
+  .navbar ul li {
+  float:left;
+  listy-style:none;
+  }
+  .navbar ul ul {
+  display:none;
+  }
+  .navbar ul li:hover > ul{
+  display:block;
+  }
+  .navbar ul li:hover a {
+  background:black;
+  transition:0.9s;
+  
+  }
+  .navbar ul li:hover a{color:white;
+  }
+  .navbar ul ul {
+  background:black;
+  padding:0;
+  margin:0;
+  position:absolute; top:200%;
+  }
+  .navbar ul ul li {
+  float:none;
+  position:relative;
+  }
+  .navbar ul ul li a{
+  padding:45px;
+  color:white;
+  width:300px;
+  text-align:left;
+  }
+  .navbar ul ul li a:hover{
+  background:lightblue;
+  color:black;
+  transition:0.10s;
+  }
+   .header{
+	  text-align:left;
+width:100%;
+background:darkcyan;
+padding:18px;
+  }
+</style>
+
+
+</head>
+<body>
+ <div class="header">
+<span style="color:lightcyan; font-size:48px; font-family:fantasy">PAY</span><span style="color:beige; font-size:35px; font-family:monospace;">gst.COM</span>
+</div>
+<div class="navbar">
+
+<ul>
+<li><a href ="indexno.php">Home</a></li>
+<li><a href ="table.html">Manage Hsn code</a></li>
+<li><a href ="help.html">Help</a></li>
+<li><a href ="business.html">Pay Gst</a></li>
+
+
+</ul>
+</div>
+<h1 style="color:saddlebrown; font-size:45px; font-style:bold; margin-top:100px; margin-left:400px;">TYPES OF BUSINESS</h1>
+<h2 style="font-size:30px; margin-top:100px;">Regular business</h2>
+<p>If annual income is greater than 1.5 cr then you have to fill the gst form of regular business.In the regular business form there will be two kind of gst
+one is state gst and another is central gst.You need tp give the HSN code for each of your product.you can get the hsn codes for your product in the HSNCODE table or<a href="table.html">here</a></p>
+
+<h3 style="font-size:30p;">Compensation Business</h3>
+<p>If your annual income is less than 1.5 cr then you have to fill the compensation business form.In the compensation business form 1%gst will be added to the total sale.</p>
+<h4 style="font-size:30px;">Others business</h4>
+<p>If you sell a product from westBengal to Bihar or any inter state then you have to fill the others business form.In the others business form you have to give Igst to each 
+product.You have to give the HSN code for each product and their respective IGST.You can get the HSNCODE and Igst for each product<a href="table.html"> here.</a></p>
+<div>
+
+<h5 style="font-size:30px;">To pay the gst bill please choose your business type</h5>
+<h6 style="font-size:20px;"><a href="newfile.php">Regular business</a></h6>
+<h2 style="font-size:20px;"><a href="compensate.html">Compensation business</a></h2>
+<h3 style="font-size:20px; margin-top:30px;"><a href="others.php">Others business</a></h3>
+
+</div>
+</body>
+
+
+</html>
